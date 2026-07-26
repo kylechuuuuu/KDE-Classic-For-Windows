@@ -1,7 +1,5 @@
 # KDE Classic Cursors for Windows
 
-![Preview](preview.png)
-
 KDE Classic cursor theme for Windows — a faithful port of the classic KDE cursors from KDE 3.x and earlier, remastered.
 
 These cursors bring back the nostalgic look and feel of early KDE desktop environments, now usable on Windows 10/11.
