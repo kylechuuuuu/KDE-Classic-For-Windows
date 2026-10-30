@@ -1,0 +1,8 @@
+# build artifacts
+build/
+src/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store

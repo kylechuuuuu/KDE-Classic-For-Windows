@@ -1,0 +1,57 @@
+; KDE Classic cursor scheme for Windows
+; Version 1.1.0
+; Source artwork: https://github.com/na0miluv/kde-classic-cursors (CC0-1.0)
+; Right-click this file -> Install, then apply "KDE Classic" in main.cpl -> Pointers.
+
+[Version]
+Signature="$Windows NT$"
+
+[DefaultInstall]
+CopyFiles=Cursors.Files
+AddReg=Cursors.Reg
+
+[DestinationDirs]
+Cursors.Files=10,"%CUR_DIR%"
+
+[Cursors.Files]
+arrow.cur
+help.cur
+appstarting.cur
+wait.cur
+crosshair.cur
+ibeam.cur
+nwpen.cur
+no.cur
+sizens.cur
+sizewe.cur
+sizenwse.cur
+sizenesw.cur
+sizeall.cur
+uparrow.cur
+hand.cur
+pin.cur
+person.cur
+
+[Cursors.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%appstarting%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%ibeam%,%10%\%CUR_DIR%\%nwpen%,%10%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%sizens%,%10%\%CUR_DIR%\%sizewe%,%10%\%CUR_DIR%\%sizenwse%,%10%\%CUR_DIR%\%sizenesw%,%10%\%CUR_DIR%\%sizeall%,%10%\%CUR_DIR%\%uparrow%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Strings]
+CUR_DIR     = "Cursors\KDE Classic"
+SCHEME_NAME = "KDE Classic"
+arrow        = "arrow.cur"
+help         = "help.cur"
+appstarting  = "appstarting.cur"
+wait         = "wait.cur"
+crosshair    = "crosshair.cur"
+ibeam        = "ibeam.cur"
+nwpen        = "nwpen.cur"
+no           = "no.cur"
+sizens       = "sizens.cur"
+sizewe       = "sizewe.cur"
+sizenwse     = "sizenwse.cur"
+sizenesw     = "sizenesw.cur"
+sizeall      = "sizeall.cur"
+uparrow      = "uparrow.cur"
+hand         = "hand.cur"
+pin          = "pin.cur"
+person       = "person.cur"
